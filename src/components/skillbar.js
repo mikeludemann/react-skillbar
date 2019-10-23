@@ -15,10 +15,10 @@ export default class Skillbar extends Component {
 			width: this.props.width + "%"
 		}
 		return (
-			<div class="container">
+			<div className="container">
 				<div>{this.props.text}</div>
-				<div class="container" style={container}>
-					<div class="skill--level" style={skillLevel}>{this.props.width + "%"}</div>
+				<div className="container" style={container}>
+					<div className="skill--level" style={skillLevel}>{this.props.width + "%"}</div>
 				</div>
 			</div>
 		)
